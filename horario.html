@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nuestros Horarios de Trabajo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:800,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:false,
+				banners:false,
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+		});
+	</script>
+</head>
+<body>
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+        <h1><a href="index.html"><img  class="logo" src="images/logo.png" alt=""></a></h1>
+        <nav>
+            <div id="slide">
+                <div class="slider">
+                    <ul class="items">
+                        <li><img src="images/slider-1.jpg" alt="" /></li>
+                        <li><img src="images/slider-2.jpg" alt="" /></li>
+                        <li><img src="images/slider-3.jpg" alt="" /></li>
+                    </ul>
+                </div>
+                <a href="#" class="prev"></a><a href="#" class="next"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="clr-1">Inicio</a></li>
+                <li><a href="info.html" class="clr-2">Info</a></li>
+                <li class="current"><a href="horario.html" class="clr-3">Horario</a></li>
+                <li><a href="galeria.html" class="clr-4">Galeria</a></li>
+                <li><a href="contacto.html" class="clr-5">Contacto</a></li>
+            </ul>
+         </nav>
+    </header>
+  <!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div class="container_12">
+          <div class="grid_4 bot-1">
+            <h2 class="top-6 p6">Asi Trabajamos</h2><br>
+            <p class="clr-7 p7"><strong>Es una rutina nuestra para que todo se puda cumplir a la perfección.</strong></p>
+            <p class="clr-7 p7"><strong>Debemos de tener todo al dia y cumplir con nuestos y vuestros objetivos</strong></p>
+            <p class="clr-7 p7"><strong>Con este horario los organizadores dedicaran todo el dia con ustedes, cada minuto, cada segundo. Trabajareis esas horas con ellos, consultando e indicando lo deseado</strong><a href="#" class="link">Más...</a></p>
+          </div>
+          <div class="grid_8">
+            <div class="block-1 top-5">
+            	<div class="block-1-shadow">
+                	<h2 class="clr-6 p6">Horario</h2>
+                    <table class="table">
+                    	<tr>
+                        	<th>Lunes</th>
+                            <th>Miercoles</th>
+                            <th>Viernes</th>
+                            <th class="last">Domingo</th>
+                        </tr>
+                        <tr>
+                        	<td><span class="clr-4">2 Horas</span><span>Con el Fotografo Peter Stanton</span></td>
+                            <td><span class="clr-4">2 Horas</span><span>Con el Fotografo Peter Stanton</span></td>
+                            <td><span class="clr-4">2 Horas</span><span>Con el Fotografo Peter Stanton</span></td>
+                            <td><span class="clr-4">2 Horas</span><span>Con el Fotografo Peter Stanton</span></td>
+                        </tr>
+                        <tr>
+                        	<td><span class="clr-4">3.5 Horas</span><span>Con la Decoradora Helen Perton</span></td>
+                            <td><span class="clr-4">3.5 Horas</span><span>Con la Decoradora Helen Perton</span></td>
+                            <td><span class="clr-4">3.5 Horas</span><span>Con la Decoradora Helen Perton</span></td>
+                            <td><span class="clr-4">3.5 Horas</span><span>Con la Decoradora Helen Perton</span></td>
+                        </tr>
+                        <tr>
+                        	<td><span class="clr-4">3 Horas</span><span>Con la Organizadora Jesica Murray</span></td>
+                            <td><span class="clr-4">3 Horas</span><span>Con la Organizadora Jesica Murray</span></td>
+                            <td><span class="clr-4">3 Horas</span><span>Con la Organizadora Jesica Murray</span></td>
+                            <td><span class="clr-4">3 Horas</span><span>Con la Organizadora Jesica Murray</span></td>
+                        </tr>
+                    </table>
+                    <div class="wrap">
+                    <div class="pad-2">
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+    </section>
+   </div>
+</body>
+</html>

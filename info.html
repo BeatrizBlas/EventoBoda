@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quienes Somos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:800,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:false,
+				banners:false,
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+		});
+	</script>
+</head>
+<body>
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+        <h1><a href="index.html"><img  class="logo" src="images/logo.png" alt=""></a></h1>
+        <nav>
+            <div id="slide">
+                <div class="slider">
+                    <ul class="items">
+                        <li><img src="images/slider-1.jpg" alt="" /></li>
+                        <li><img src="images/slider-2.jpg" alt="" /></li>
+                        <li><img src="images/slider-3.jpg" alt="" /></li>
+                    </ul>
+                </div>
+                <a href="#" class="prev"></a><a href="#" class="next"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="clr-1">Inicio</a></li>
+                <li class="current"><a href="Info.html" class="clr-2">Info</a></li>
+                <li><a href="horario.html" class="clr-3">Horario</a></li>
+                <li><a href="galeria.html" class="clr-4">Galeria</a></li>
+                <li><a href="contacto.html" class="clr-5">Contacto</a></li>
+            </ul>
+         </nav>
+    </header>
+  <!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div class="container_12">
+          <div class="grid_4 bot-1">
+            <h2 class="top-6 p2">Pantilla</h2>
+            <p class="text-1 top-2 p3">Peter Stanton</p>
+            <p class="pp"><strong>Es un fotografo de primera clase cuyas fotos son obras maestras, fue condecorado por las mejores fotos con los Reyes de España <a href="#" class="link">Más...</a></p>
+            <p class="text-1 top-2 p3">Elena Perton</p>
+            <p class="pp"><strong>Decoradora cualificada, cuyas decoraciones han sido muy comentadas por sus impresionantes decoraciones al mejor precio<a href="#" class="link">Más...</a></p>
+            <p class="text-1 top-2 p3">Jesica Pérez</p>
+            <p class="pp"><strong>Organizadora de los eventos, ella te elegira lo mejores sitios para poder elaborar tu boda a tu justo <a href="#" class="link">Más...</a></p>
+          </div>
+          <div class="grid_8">
+            <div class="block-1 top-5">
+            	<div class="block-1-shadow">
+                	<h2 class="clr-6 p6">Organizadores</h2>
+                    <p class="clr-6"><strong>La plantilla de nuestra compañia te van a elabolar la mejor boda posible</strong></p>
+					<p class="clr-6">Se necesita un mes para poder elaborar todo el evento y nuestra palntilla cuenta con subpersonas que ayudan a los demas integrantes y hacer posible que funcione y que se termine todo en el tiempo deseado.</p>
+                    <div class="pad-3">
+                    	<img src="images/page2-img1.jpg" alt="" class="img-border img-indent">
+                        <div class="extra-wrap clr-6">
+                        	<p><strong></strong></p>
+                        </div>
+                    </div>
+                    <h2 class="clr-6 p6">Mas Sobre Nosotros</h2>
+                    <p class="clr-6"><strong>Nuestras creaciones son únicas. Diseñamos excepcionales eventos personalizados con arte, elegancia, armonía y belleza. Románticas ceremonias, emocionantes bodas, divertidas fiestas, deslumbrantes Lunas de Miel, glamurosos cumpleaños, celebraciones espectaculares. Creamos experiencias llenas de placer para los sentidos tanto desde el corazón de la rica cultura española y mediterránea, como en cualquier destino soñado en el que hacer realidad destination The Wedding Planner Madrid de primer nivel mundial. Un lujo hecho a medida de nuestros sofisticados clientes.</strong></p>
+					<p class="clr-6"> The Wedding Planner Madrid es la mejor Empresa de España, con 37 años dedicados a una selecta clientela internacional a la que realiza los más fabulosos y exclusivos diseños que materializa en mágicas atmósferas que después se convierten en tendencia</p>
+                    <div class="lists">
+                    	<ul class="list-2">
+                        	<li><a href="#">Fotografias</a></li>
+                            <li><a href="#">Elegimos los mejores sitios</a></li>
+                            <li><a href="#">Civil o Iglesia</a></li>
+                            <li><a href="#">Decoración</a></li>
+                        </ul>
+                        <ul class="list-2 last">
+                        	<li><a href="#">Maquillaje y Peluqueria</a></li>
+                            <li><a href="#">Elegimos los mejores Vestidos de Mujeres</a></li>
+                            <li><a href="#">Elegimos los mejores Trajes de Hombres</a></li>
+                            <li><a href="#">Celebracion con las mejores orquestas</a></li>
+                        </ul>
+                    </div>
+                    <div class="pad-2">
+                    	<a href="#" class="link-2">Más...</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+    </section>
+   </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <title>Wedding Planner</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:'.prev',
+				nextBu:'.next',
+				playBu:false,
+				duration:800,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:false,
+				banners:false,
+				waitBannerAnimation:false,
+				progressBar:false
+			})
+		});
+	</script>
+</head>
+<body>
+  <div class="main">
+
+    <header>
+        <h1><a href="index.html"><img class="logo" src="images/logo.png" alt=""></a></h1>
+        <nav>
+            <div id="slide">
+                <div class="slider">
+                    <ul class="items">
+                        <li><img src="images/slider-1.jpg" alt="" /></li>
+                        <li><img src="images/slider-2.jpg" alt="" /></li>
+                        <li><img src="images/slider-3.jpg" alt="" /></li>
+                    </ul>
+                </div>
+                <a href="#" class="prev"></a><a href="#" class="next"></a>
+            <idiv>
+            <ul class="menu">
+                <li class="current"><a href="index.html" class="clr-1">Inicio</a></li>
+                <li><a href="info.html" class="clr-2">Info</a></li>
+                <li><a href="horario.html" class="clr-3">Horario</a></li>
+                <li><a href="galeria.html" class="clr-4">Galeria</a></li>
+                <li><a href="contacto.html" class="clr-5">Contacto</a></li>
+            </ul>
+         </nav>
+    </header>
+
+    <section id="content"><div class="ic"></div>
+        <div class="container_12">
+          <div class="grid_4 bot-1">
+            <div class="art"></div>
+            <h2 class="top-1 p2">Comentarios</h2>
+            <p class="text-1 p3">18 de Abril - “Increible”</p>
+            <p class="clr-7 p7">Gracia a los mejores organizadores The Wedding Planner de Madrid</a> quienes organizaron mi boda de sueño<br>Contratelos!!</p>
+            <p class="text-1 top-2 p3">20 de Mayo - “Impresionante”</p>
+            <p class="clr-7 p7">Mi boda fue incleible gracias a The Wedding Planner de Madrid por organizar mi boda es increible la cantidades de cosas que hacen para hacer la mejor boda posible<br>Trabajan muy bien!!!</p>
+            <a href="#" class="link-1 top-3">Más Comentarios</a>
+          </div>
+          <div class="grid_8">
+          	<div class="pad-1">
+          		<h2 class="p2">Bienvenidos a The Wedding Planner Madrid</h2>
+            	<p class="text-1">The The Wedding Planner Madrid somos una empresa encargada de los mejores eventos de boda, en nuestr pagina web, la cual pudes visitar gratuitamente, Theweddingplannermadrid.com . Somos los mayores organizadores de bodas de toda España, temenos empresas distribuidas por el pais.</p>
+            </div>
+            <div class="block-1">
+            	<div class="block-1-shadow">
+                	<h2 class="clr-6 p4">Nuestra Galería</h2>
+                    <div class="box-1">
+                    	<a href="#" class="img-border"><img src="images/img1.jpg" alt=""></a>
+                    	<p class="text-2">Las Mejores Decoraciones</p>
+                    </div>
+                    <div class="box-1 last">
+                    	<a href="#" class="img-border"><img src="images/img2.jpg" alt=""></a>
+                    	<p class="text-2">La Cubertería más Bonita</p>
+                    </div>
+                    <div class="clear p5"></div>
+                    <div class="box-1">
+                    	<a href="#" class="img-border"><img src="images/img3.jpg" alt=""></a>
+                    	<p class="text-2">La Mejores Fotografias</p>
+                    </div>
+                    <div class="box-1 last">
+                    	<a href="#" class="img-border"><img src="images/img4.jpg" alt=""></a>
+                    	<p class="text-2">El Mayor Espacio Posible</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="pad-2">
+                    	<a href="#" class="link-2">Toda la Galería</a>
+                    </div>
+                </div>
+            </div>
+
+          <div class="clear"></div>
+        </div>
+    </section>
+   </div>
+</body>
+</html>
